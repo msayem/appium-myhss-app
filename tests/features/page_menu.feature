@@ -1,23 +1,23 @@
 @menu
-Feature: Menu Page
+Feature: Menu Screen - Access
 
   @C793 @standard
   Scenario: Verifying "Menu" Screen elements for Full Account
     Given a user who is in "PRE_OP_ONE_CASE" state
     And a user who is into the Menu Screen
     Then element "MenuTitle" is displayed
-
+    # Get Care Section
     Then element "GetCareTitle" is displayed
     And text "Schedule with a Specialist You’ve Seen" is displayed into the "ScheduleSpecialistSeenMenu"
     And text "Schedule with a New Specialist" is displayed into the "ScheduleNewSpecialistMenu"
     And text "Get Immediate Care" is displayed into the "GetImmediateCareMenu"
     And text "View Care Team" is displayed into the "ViewCareTeamMenu"
-
+    # Communication Section
     Then element "CommunicationTitle" is displayed
     And text "Messages" is displayed into the "MessageMenu"
     And text "Send Message" is displayed into the "SendMessageMenu"
     And text "Letters" is displayed into the "LetterMenu"
-
+    # Resources Section
     #Then element "ResourcesTitle" is displayed
     #And text "Find a Doctor" is displayed into the "FindDoctorMenu"
     #And text "Find a Therapy Provider Near You" is displayed into the "FindTherapyProviderMenu"
@@ -29,7 +29,7 @@ Feature: Menu Page
     #And text "Search Medical Library" is displayed into the "SearchLibraryMenu"
     #And text "Education" is displayed into the "EducationMenu"
     #And text "Share Feedback" is displayed into the "ShareFeedbackMenu"
-
+    # My Record Section
     Then element "MyRecordTitle" is displayed
     And text "Test Results" is displayed into the "TestResultsMenu"
     And text "Covid-19" is displayed into the "Covid-19Menu"
@@ -45,24 +45,24 @@ Feature: Menu Page
     And text "Medications" is displayed into the "MedicationsMenu"
     And text "Medical and Family History" is displayed into the "MedicalAndFamilyHistoryMenu"
     And text "To-Do" is displayed into the "To-DoMenu"
-
+    # Billing Section
     Then element "BillingTitle" is displayed
     And text "Billing Summary" is displayed into the "BillingSummaryMenu"
-
+    # Insurance Section
     Then element "InsuranceTitle" is displayed
     And text "Coverage Details" is displayed into the "CoverageDetailsMenu"
     And text "Claims" is displayed into the "ClaimsMenu"
     And text "Referrals" is displayed into the "ReferralsMenu"
-
+    # Sharing Section
     Then element "SharingTitle" is displayed
     And text "Share My Record" is displayed into the "ShareMyRecordMenu"
     And text "Share Everywhere" is displayed into the "ShareEverywhereMenu"
     And text "Link My Accounts" is displayed into the "LinkMyAccountsMenu"
-
+    # Account Settings Section
     Then element "AccountSettingsTitle" is displayed
     And text "Personal Information" is displayed into the "PersonalInformationMenu"
     And text "Account Settings" is displayed into the "AccountSettingsMenu"
-    # Personalize menu
+    And text "Personalize" is displayed into the "PersonalizeMenu"
     And text "Communication Preferences" is displayed into the "CommunicationPreferencesMenu"
     And text "Other Preferences" is displayed into the "OtherPreferencesMenu"
     And text "Privacy Policy" is displayed into the "PrivacyPolicyMenu"
@@ -73,18 +73,18 @@ Feature: Menu Page
     And a user who is into the Menu Screen
     Then element "MenuTitle" is displayed
     Then text "Menu" is displayed into the "MenuTitle"
-
+    # Get Care Section
     Then element "GetCareTitle" is displayed
     Then text "Schedule with a Specialist You’ve Seen" is displayed into the "ScheduleSpecialistSeenMenu"
     Then text "Schedule with a New Specialist" is displayed into the "ScheduleNewSpecialistMenu"
     Then text "Get Immediate Care" is displayed into the "GetImmediateCareMenu"
     Then text "View Care Team" is displayed into the "ViewCareTeamMenu"
-
+    # Communication Section
     Then element "CommunicationTitle" is displayed
     Then text "Messages" is displayed into the "MessageMenu"
     Then text "Send Message" is displayed into the "SendMessageMenu"
     Then text "Letters" is displayed into the "LetterMenu"
-
+    # Resources Section
     #Then element "ResourcesTitle" is displayed
     #Then text "Find a Doctor" is displayed into the "FindDoctorMenu"
     #Then text "Find a Therapy Provider Near You" is displayed into the "FindTherapyProviderMenu"
@@ -96,7 +96,7 @@ Feature: Menu Page
     #Then text "Search Medical Library" is displayed into the "SearchLibraryMenu"
     #Then text "Education" is displayed into the "EducationMenu"
     #Then text "Share Feedback" is displayed into the "ShareFeedbackMenu"
-
+    # My Record Section
     Then element "MyRecordTitle" is displayed
     Then text "Test Results" is displayed into the "TestResultsMenu"
     #Then text "Covid-19" is displayed into the "Covid-19Menu"
@@ -112,20 +112,20 @@ Feature: Menu Page
     Then text "Medications" is displayed into the "MedicationsMenu"
     Then text "Medical and Family History" is displayed into the "MedicalAndFamilyHistoryMenu"
     Then text "To-Do" is displayed into the "To-DoMenu"
-
+    # Billing Section
     Then element "BillingTitle" is displayed
     Then text "Billing Summary" is displayed into the "BillingSummaryMenu"
-
+    # Insurance Section
     Then element "InsuranceTitle" is displayed
     Then text "Coverage Details" is displayed into the "CoverageDetailsMenu"
     Then text "Claims" is displayed into the "ClaimsMenu"
     Then text "Referrals" is displayed into the "ReferralsMenu"
-
+    # Sharing Section
     Then element "SharingTitle" is displayed
     Then text "Share My Record" is displayed into the "ShareMyRecordMenu"
     Then text "Share Everywhere" is displayed into the "ShareEverywhereMenu"
     Then text "Link My Accounts" is displayed into the "LinkMyAccountsMenu"
-
+    # Account Settings Section
     Then element "AccountSettingsTitle" is displayed
     Then text "Personal Information" is displayed into the "PersonalInformationMenu"
     Then text "Account Settings" is displayed into the "AccountSettingsMenu"

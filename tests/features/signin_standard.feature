@@ -1,5 +1,5 @@
 @test @sign_in
-Feature: Sign In - Standard user
+Feature: Sign In Screen
 
   @C2920
   Scenario: C2920 Verifying "Sign In Standard" Screen elements

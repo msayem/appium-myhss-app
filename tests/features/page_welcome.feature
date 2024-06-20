@@ -1,5 +1,5 @@
 @test @welcome
-Feature: Onboarding Welcome Screen
+Feature: Welcome Screen
 
   @C2893
   Scenario: C2893 Verifying "Welcome" Screen elements

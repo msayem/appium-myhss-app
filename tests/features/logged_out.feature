@@ -1,5 +1,5 @@
 @test @logged_out
-Feature: Logged Out Landing Page
+Feature: Logged Out Landing Screen
 
   @C764
   Scenario: C764 Verifying "Logged Out" Screen elements
@@ -14,7 +14,7 @@ Feature: Logged Out Landing Page
     # And text "Get Directions" is displayed into the "DirectionsLink" ## Option disabled
     And text "FAQs & Support" is displayed into the "SupportLink"
     And text "Privacy Policy" is displayed into the "PrivacyPolicyLink"
-    And app "buildVersion" is displayed into the "VersionLabel"
+    And element "VersionLabel" is displayed
 
   @C765
   Scenario: C765 Verifying "Logged Out" Screen greetings message

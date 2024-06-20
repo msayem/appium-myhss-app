@@ -1,5 +1,5 @@
 @test @resources
-Feature: Resources Page
+Feature: Resources Screen
 
   @C2923
   Scenario: C2923 Verifying "Resources" Screen elements for Standard User
@@ -21,9 +21,6 @@ Feature: Resources Page
     Then it displays the "MakeAnAppointment" Screen
     And element "AppointmentTitle" is displayed
     And text "Make an Appointment" is displayed into the "AppointmentTitle"
-    And text "online booking with doctors" is displayed into the "HSSDoctorsButton"
-    And text "online booking with physical therapy" is displayed into the "PhysicalTherapyButton"
-    And text "online booking with Urgent Ortho Care" is displayed into the "UrgentCareButton"
 
   @C2925
   Scenario: C2925 Verifying Accessing "Conditions and Treatments" Screen

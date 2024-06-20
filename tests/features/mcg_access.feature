@@ -1,5 +1,5 @@
 @test @mcg_access
-Feature: MCG Screen Access
+Feature: MCG Screen - Access
 
   @C758 @C2841 @PRE_OP_ONE_CASE
   Scenario: C758 Accessing "MyCareGuide" Screen for Standard User with PRE_OP status with One Case

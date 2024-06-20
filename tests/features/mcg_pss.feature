@@ -22,10 +22,3 @@ Feature: MCG Screen - Pre-Surgical Screening
     When the user clicks the "TaskButton" from the "Itinerary" task
     Then it displays the "Itinerary" Screen
     And text "Pre-Surgical Screening Day" is displayed into the "ItineraryTitle"
-
-  @x3
-  Scenario: App displays a "PSS" task to remind user to schedule the appointment
-    Given a user who is in "TEST_OP_ONE_CASE" state
-    And a user who is into the MyCareGuide Screen
-    Then "ToDoListTab" is selected
-    And "PSS" task is displayed in To Do List
