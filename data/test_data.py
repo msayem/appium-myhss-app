@@ -39,21 +39,6 @@ TEST_USERS = {
         'surgeryDate': '13/12/2024'
     },
 
-    "TEST_OP_ONE_CASE": {
-        'type': 'standard',
-        'userName': 'automation1',
-        'password': 'epic1234',
-        'firstName': 'Twelve',
-        'lastName': 'Automation',
-        'surgeryTitle': 'Total Knee Replacement & Recovery',
-        'surgeryDate': '30/12/2024',
-        'tasks': {
-            'PSS': {
-                'title': 'Watch: Advance Directives',
-                'cta': 'Play video',
-            }
-        },
-    },
     "PRE_OP_PSS_NOT_SCHEDULED": {
         'type': 'standard',
         'userName': 'automation12',
